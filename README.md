@@ -28,8 +28,10 @@ timing faults in the resulting stream may occur, even when running it in untimed
 installation: 
 
 unpacking the tar archive and "make install" will place it in the /usr/local sub hierarchy. 
-no readme file available, but man pages: iso13818ts(1), iso13818ps(1), repeatts(1), en300468ts(1)
-there are additional diagnostic tools included: 
+
+No readme file available, but man pages: iso13818ts(1), iso13818ps(1), repeatts(1), en300468ts(1)
+
+There are additional diagnostic tools included: 
 showts, ts2pes, pes2es. these are provided by third party, 
 so i cannot explain details about them. the latter two are said to produce a nice stream dump when given the option -v. 
 you are invited to write a man page or similar for these. otherwise check the sources for explanations.
