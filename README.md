@@ -2,11 +2,12 @@ https://www.scara.com/~schirmer/o/mplex13818/
 
 
 # mplex13818
-iso 13818 stream multiplexer
+# iso 13818 stream multiplexer
  
-this multiplexer is designed to run uninterruptedly on a streaming server, 
+This multiplexer is designed to run uninterruptedly on a streaming server, 
 that propagates a number of iso 13818 broadcast streams, reorganizing the streams in realtime. 
 I wrote it in 2001 for convergence gmbh, and they kindly released it finally as open source under the general public license (gpl) in 2003.
+
 features:
 
 output is either a transport stream or a program stream
@@ -18,12 +19,14 @@ program map table manipulation, descriptor filter/injection
 now includes an additional tool for EN 300468 SI table composition
 
 what this multiplexer does not:
+
 it does neither check, unpack nor recode elementary streams, 
 it does not even care for what data it shovels: just bytes
 it does not check system performance capacities, so when the cpu cannot do the work, 
 timing faults in the resulting stream may occur, even when running it in untimed mode
 
 installation: 
+
 unpacking the tar archive and "make install" will place it in the /usr/local sub hierarchy. 
 no readme file available, but man pages: iso13818ts(1), iso13818ps(1), repeatts(1), en300468ts(1)
 there are additional diagnostic tools included: 
