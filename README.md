@@ -1,5 +1,5 @@
 https://www.scara.com/~schirmer/o/mplex13818/
-
+Copyright (C) GPL 2004..2008, Oskar Schirmer
 
 # mplex13818
 # iso 13818 stream multiplexer
