@@ -26,7 +26,7 @@ it does not even care for what data it shovels: just bytes
 it does not check system performance capacities, so when the cpu cannot do the work, 
 timing faults in the resulting stream may occur, even when running it in untimed mode.
 
-# installation: 
+# Installation: 
 
 Unpacking archive and "make install" will place it in the /usr/local sub hierarchy. 
 
